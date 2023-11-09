@@ -1,69 +1,146 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+* {
+  box-sizing: border-box;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff7ed;
+  font-family: "Inter", sans-serif;
 }
-a:hover {
-  color: #535bf2;
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+header {
+  height: 110px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  padding-block: 10px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+header .site-logo {
+  color: black;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+header a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+header a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+.link-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0.75rem 1.375rem;
+  color: initial;
+  font-weight: 700;
+  border-radius: 5px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: transform 0.1s ease-in-out;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.link-button:hover {
+  transform: translate(1px, 1px);
+}
+
+/*** HOME PAGE ***/
+.home-container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url("./assets/images/home-hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 350px;
+  color: white;
+  padding: 45px 23px;
+}
+
+.home-container h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 42px;
+}
+
+.home-container p {
+  line-height: 24px;
+}
+
+.home-container a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff8c38;
+  border: none;
+  width: 100%;
+  margin-top: 27px;
+  padding-block: 0.75rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.home-container a:hover {
+  transform: translate(1px, 1px);
+}
+
+/*** ABOUT PAGE ***/
+.about-hero-image {
+  max-width: 100%;
+}
+
+.about-page-content {
+  padding-inline: 23px;
+  color: #161616;
+  margin-bottom: 55px;
+}
+
+.about-page-content h1 {
+  line-height: 38px;
+}
+
+.about-page-content p {
+  line-height: 22px;
+}
+
+.about-page-cta {
+  background-color: #ffcc8d;
+  color: #161616;
+  padding-inline: 32px;
+  padding-bottom: 32px;
+  margin-inline: 27px;
+  border-radius: 5px;
+}
+
+.about-page-cta h2 {
+  margin: 0;
+  padding-block: 37px;
+}
+
+.about-page-cta .link-button {
+  background-color: #161616;
+  color: white;
+  border-radius: 10px;
 }
