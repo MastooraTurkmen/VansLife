@@ -2,6 +2,8 @@
 
 _Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip._
 
+### _*VanLife Home Page*_
+
 ![Alt text](./src/assets/screentshots/vansLife-page.png)
 
 ![Alt text](./src/assets/screentshots/vansLife-about.png)
