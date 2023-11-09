@@ -4,6 +4,8 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 
 ![Alt text](./src/assets/screentshots/vansLife-page.png)
 
+![Alt text](./src/assets/screentshots/vansLife-about.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
