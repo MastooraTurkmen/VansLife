@@ -6,6 +6,8 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 
 ![Alt text](./src/assets/screentshots/vansLife-page.png)
 
+### _*VanLife about Page*_
+
 ![Alt text](./src/assets/screentshots/vansLife-about.png)
 
 # React + Vite
