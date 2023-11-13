@@ -18,6 +18,13 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 
 ![Alt text](./src/assets/screentshots/vansLife-about.png)
 
+## Adding More Features
+
+1. #VANLIFE
+2. Host
+3. About
+4. Vans
+
 ---
 
 # React + Vite
