@@ -31,15 +31,15 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 
 ### 2. _Host_
 
-![Alt text](./src/assets/screentshots/Host-page-dashboard)
+![Alt text](./src/assets/screentshots/Host-page-dashboard.png)
 
-![Alt text](./src/assets/screentshots/Host-page-Vans)
+![Alt text](./src/assets/screentshots/Host-page-Vans.png)
 
-![Alt text](./src/assets/screentshots/Host-page-Vans-ModestExplorer)
+![Alt text](./src/assets/screentshots/Host-page-Vans-ModestExplorer.png)
 
-![Alt text](./src/assets/screentshots/Host-page-vans-BeachBum)
+![Alt text](./src/assets/screentshots/Host-page-vans-BeachBum.png)
 
-![Alt text](./src/assets/screentshots/Host-page-Vans-GreenWonder)
+![Alt text](./src/assets/screentshots/Host-page-Vans-GreenWonder.png)
 
 ---
 
