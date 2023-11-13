@@ -41,7 +41,11 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 
 ![Alt text](./src/assets/screentshots/Host-page-Vans-GreenWonder.png)
 
-### 3. _Vans_
+### 3. _About_
+
+![Alt text](./src/assets/screentshots/About-page.png)
+
+### 4. _Vans_
 
 ![Alt text](./src/assets/screentshots/Vans-page.png)
 
