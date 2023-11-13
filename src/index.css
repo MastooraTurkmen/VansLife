@@ -272,9 +272,6 @@ i[class*="van-type-"] {
   text-decoration: none;
 }
 
-.van-detail-container .back-button:visited {
-}
-
 .van-detail-container .back-button span {
   text-decoration: underline;
 }
