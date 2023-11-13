@@ -25,6 +25,10 @@ _Add adventure to your life by joining the #vanlife movement. Rent the perfect v
 3. About
 4. Vans
 
+### _#VANLIFE_
+
+![Alt text](./src/assets/screentshots/vanlife-page-screenshot.png)
+
 ---
 
 # React + Vite
