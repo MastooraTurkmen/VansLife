@@ -22,7 +22,7 @@ export async function getVans(id) {
     const res = await fetch(url)
     if (!res.ok) {
         throw {
-            message: "Failed to fetch vans",
+            message: "Failed to fetchnav-top vans",
             statusText: res.statusText,
             status: res.status
         }
@@ -60,4 +60,4 @@ export async function loginUser(creds) {
     }
 
     return data
-}
+}    align-items: center;
